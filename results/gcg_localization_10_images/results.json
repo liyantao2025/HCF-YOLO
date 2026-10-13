@@ -1,0 +1,54 @@
+{
+  "scope": "matched-checkpoint GCG diagnostic on 10 held-out high-density images",
+  "controlled_factors": {
+    "epochs": 200,
+    "seed": 42,
+    "initialization": "same yolo11n.pt checkpoint",
+    "box_loss": "SA-WIoU v3",
+    "architecture": "P2+LMSFF",
+    "only_intended_difference": "GCG disabled versus enabled"
+  },
+  "models": [
+    {
+      "model": "P2+LMSFF+SA-WIoU (without GCG)",
+      "weights": "D:\\python_pro\\yolov11\\runs\\ablation\\diagnose_E_plus_SAWIoU_only\\weights\\best.pt",
+      "test_images": 10,
+      "ap75": 0.4955874391715313,
+      "center_error_conf": 0.15,
+      "center_match_iou": 0.5,
+      "matched_targets": 3767,
+      "mean_center_error_px": 0.5939611007334857,
+      "std_center_error_px": 0.35243297498921505,
+      "median_center_error_px": 0.5286194086074829,
+      "mean_normalized_center_error_percent": 0.06562405029708707,
+      "std_normalized_center_error_percent": 0.03893871033137963,
+      "mean_matched_iou": 0.7737313124175916
+    },
+    {
+      "model": "P2+LMSFF+SA-WIoU+GCG",
+      "weights": "D:\\python_pro\\yolov11\\runs\\ablation\\ablation_H_midlite_p2safe_gcg_sawiou_pretrained_samehyp\\weights\\best.pt",
+      "test_images": 10,
+      "ap75": 0.49914549522589147,
+      "center_error_conf": 0.15,
+      "center_match_iou": 0.5,
+      "matched_targets": 3785,
+      "mean_center_error_px": 0.5937252346485302,
+      "std_center_error_px": 0.3511075639384066,
+      "median_center_error_px": 0.534085214138031,
+      "mean_normalized_center_error_percent": 0.06559799056744099,
+      "std_normalized_center_error_percent": 0.0387922717744455,
+      "mean_matched_iou": 0.7740990623457744
+    }
+  ],
+  "gcg_delta": {
+    "comparison": "matched GCG-on minus GCG-off",
+    "test_images": 10,
+    "delta_ap75": 0.003558056054360159,
+    "delta_ap75_percentage_points": 0.3558056054360159,
+    "delta_mean_center_error_px": -0.0002358660849555161,
+    "center_error_relative_change_percent": -0.039710695643914024,
+    "delta_mean_normalized_center_error_percentage_points": -2.6059729646074614e-05,
+    "delta_matched_targets": 18,
+    "delta_mean_matched_iou": 0.0003677499281827812
+  }
+}

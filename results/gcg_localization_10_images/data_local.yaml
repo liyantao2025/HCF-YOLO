@@ -1,0 +1,7 @@
+path: D:/python_pro/yolov11/dataset
+train: images/train_improved
+val: images/val
+test: images/test
+nc: 1
+names:
+  0: cotton

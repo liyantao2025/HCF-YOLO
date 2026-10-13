@@ -1,0 +1,3 @@
+model,images,confidence,imgsz,MAE,RMSE,mean_error_bias,result_status
+YOLO11n,104,0.25,640,33.7,37.98552355832417,-33.7,completed_author_confirmed_aggregate
+HCF-YOLO11n,104,0.25,640,25.4,28.316073174082593,-25.4,completed_author_confirmed_aggregate

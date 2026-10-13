@@ -1,0 +1,11 @@
+﻿image,ground_truth,YOLO11n_pred,YOLO11n_error,HCF-YOLO11n_pred,HCF-YOLO11n_error
+result_4_97_png.rf.cee5573126d6a64b0cf87daf44934be2.jpg,435,369,-66,443,8
+result_5_100_png.rf.19fd6d46df00df4e7fec68794ee3c881.jpg,462,435,-27,487,25
+result_5_75_png.rf.d39db1d1e19defbce63629e1486b719e.jpg,384,335,-49,398,14
+result_5_85_png.rf.856d8961fb1079ecab164e4db1b3f1e2.jpg,387,350,-37,412,25
+result_5_88_png.rf.dfa334a7323ab56a939e8f473801854a.jpg,409,401,-8,460,51
+result_5_98_png.rf.75ab490ab0fce5d99a598e06361f4d3e.jpg,404,388,-16,441,37
+result_5_99_png.rf.03796f8e2d8ee6ec0aaa7bc3877a2349.jpg,404,394,-10,438,34
+result_6_78_png.rf.7b0f7993ddc2339f888760b9feeb578f.jpg,361,324,-37,382,21
+result_7_60_png.rf.023314b3b262a4156d0c5221dcf8ad81.jpg,338,294,-44,367,29
+result_7_68_png.rf.e216a037d681ce88e79266e13d281b78.jpg,329,286,-43,339,10

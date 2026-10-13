@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.cache
+.pytest_cache/
+.idea/
+.vscode/
+.venv*/
+env/
+runs/
+outputs/
+logs/
+full_pipeline_console.log
+wandb/
+*.tmp
+*.bak
+~$*
+
+# Third-party datasets are intentionally excluded from the public repository
+# until their redistribution permissions are confirmed. Split manifests,
+# configuration files, and preparation scripts remain versioned.
+dataset/images/
+dataset/labels/
+external_validation/dataset/images/
+external_validation/dataset/labels/
+deployment/raspberry_pi/package/dataset/images/

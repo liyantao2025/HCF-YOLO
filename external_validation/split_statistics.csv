@@ -1,0 +1,4 @@
+﻿split,source_dataset,images,annotations,acquisition_batches
+train,COT-AD,842,57298,5
+val,COT-AD,98,6375,1
+external_test,Cotton-BNYQS,100,38150,1

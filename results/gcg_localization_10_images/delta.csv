@@ -1,0 +1,2 @@
+﻿comparison,test_images,delta_ap75,delta_ap75_percentage_points,delta_mean_center_error_px,center_error_relative_change_percent,delta_mean_normalized_center_error_percentage_points,delta_matched_targets,delta_mean_matched_iou
+matched GCG-on minus GCG-off,10,0.003558056054360159,0.3558056054360159,-0.0002358660849555161,-0.039710695643914024,-2.6059729646074614e-05,18,0.0003677499281827812

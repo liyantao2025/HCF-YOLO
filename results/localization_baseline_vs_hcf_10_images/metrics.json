@@ -1,0 +1,240 @@
+[
+  {
+    "summary": {
+      "model": "YOLO11n",
+      "weights": "D:\\python_pro\\yolov11\\runs\\ablation\\yolo11n_baseline\\weights\\best.pt",
+      "test_images": 10,
+      "ap75": 0.49079402408676875,
+      "center_error_conf": 0.15,
+      "center_match_iou": 0.5,
+      "matched_targets": 3478,
+      "mean_center_error_px": 0.6228373236498994,
+      "std_center_error_px": 0.3782437209959331,
+      "median_center_error_px": 0.5501823723316193,
+      "mean_normalized_center_error_percent": 0.06881445241496749,
+      "std_normalized_center_error_percent": 0.04179042191837447,
+      "mean_matched_iou": 0.7720714181130339
+    },
+    "per_image": [
+      {
+        "model": "YOLO11n",
+        "image": "result_4_97_png.rf.cee5573126d6a64b0cf87daf44934be2.jpg",
+        "ground_truth_count": 435,
+        "prediction_count_conf_0.15": 409,
+        "matched_count_iou_0.50": 379,
+        "mean_center_error_px": 0.7871164083480835,
+        "mean_normalized_center_error_percent": 0.08696490526199341,
+        "mean_matched_iou": 0.7123676538467407
+      },
+      {
+        "model": "YOLO11n",
+        "image": "result_5_100_png.rf.19fd6d46df00df4e7fec68794ee3c881.jpg",
+        "ground_truth_count": 462,
+        "prediction_count_conf_0.15": 455,
+        "matched_count_iou_0.50": 405,
+        "mean_center_error_px": 0.5863804817199707,
+        "mean_normalized_center_error_percent": 0.06478650122880936,
+        "mean_matched_iou": 0.7884138822555542
+      },
+      {
+        "model": "YOLO11n",
+        "image": "result_5_75_png.rf.d39db1d1e19defbce63629e1486b719e.jpg",
+        "ground_truth_count": 384,
+        "prediction_count_conf_0.15": 365,
+        "matched_count_iou_0.50": 331,
+        "mean_center_error_px": 0.7553945183753967,
+        "mean_normalized_center_error_percent": 0.08346009254455566,
+        "mean_matched_iou": 0.7243441939353943
+      },
+      {
+        "model": "YOLO11n",
+        "image": "result_5_85_png.rf.856d8961fb1079ecab164e4db1b3f1e2.jpg",
+        "ground_truth_count": 387,
+        "prediction_count_conf_0.15": 381,
+        "matched_count_iou_0.50": 333,
+        "mean_center_error_px": 0.7930718660354614,
+        "mean_normalized_center_error_percent": 0.08762288838624954,
+        "mean_matched_iou": 0.6941609978675842
+      },
+      {
+        "model": "YOLO11n",
+        "image": "result_5_88_png.rf.dfa334a7323ab56a939e8f473801854a.jpg",
+        "ground_truth_count": 409,
+        "prediction_count_conf_0.15": 429,
+        "matched_count_iou_0.50": 372,
+        "mean_center_error_px": 0.5579524040222168,
+        "mean_normalized_center_error_percent": 0.061645615845918655,
+        "mean_matched_iou": 0.7956659197807312
+      },
+      {
+        "model": "YOLO11n",
+        "image": "result_5_98_png.rf.75ab490ab0fce5d99a598e06361f4d3e.jpg",
+        "ground_truth_count": 404,
+        "prediction_count_conf_0.15": 416,
+        "matched_count_iou_0.50": 378,
+        "mean_center_error_px": 0.552918016910553,
+        "mean_normalized_center_error_percent": 0.06108938902616501,
+        "mean_matched_iou": 0.8005874752998352
+      },
+      {
+        "model": "YOLO11n",
+        "image": "result_5_99_png.rf.03796f8e2d8ee6ec0aaa7bc3877a2349.jpg",
+        "ground_truth_count": 404,
+        "prediction_count_conf_0.15": 412,
+        "matched_count_iou_0.50": 371,
+        "mean_center_error_px": 0.5715568661689758,
+        "mean_normalized_center_error_percent": 0.06314870715141296,
+        "mean_matched_iou": 0.7985240817070007
+      },
+      {
+        "model": "YOLO11n",
+        "image": "result_6_78_png.rf.7b0f7993ddc2339f888760b9feeb578f.jpg",
+        "ground_truth_count": 361,
+        "prediction_count_conf_0.15": 347,
+        "matched_count_iou_0.50": 320,
+        "mean_center_error_px": 0.5126881003379822,
+        "mean_normalized_center_error_percent": 0.05664456635713577,
+        "mean_matched_iou": 0.802437424659729
+      },
+      {
+        "model": "YOLO11n",
+        "image": "result_7_60_png.rf.023314b3b262a4156d0c5221dcf8ad81.jpg",
+        "ground_truth_count": 338,
+        "prediction_count_conf_0.15": 325,
+        "matched_count_iou_0.50": 293,
+        "mean_center_error_px": 0.5529910922050476,
+        "mean_normalized_center_error_percent": 0.061097461730241776,
+        "mean_matched_iou": 0.800543487071991
+      },
+      {
+        "model": "YOLO11n",
+        "image": "result_7_68_png.rf.e216a037d681ce88e79266e13d281b78.jpg",
+        "ground_truth_count": 329,
+        "prediction_count_conf_0.15": 308,
+        "matched_count_iou_0.50": 296,
+        "mean_center_error_px": 0.5459560751914978,
+        "mean_normalized_center_error_percent": 0.06032019853591919,
+        "mean_matched_iou": 0.8069408535957336
+      }
+    ]
+  },
+  {
+    "summary": {
+      "model": "HCF-YOLO11n",
+      "weights": "D:\\python_pro\\yolov11\\runs\\ablation\\diagnose_E_plus_GCG_only\\weights\\best.pt",
+      "test_images": 10,
+      "ap75": 0.5139263110608219,
+      "center_error_conf": 0.15,
+      "center_match_iou": 0.5,
+      "matched_targets": 3777,
+      "mean_center_error_px": 0.5975627144791239,
+      "std_center_error_px": 0.35249117498156063,
+      "median_center_error_px": 0.5364624857902527,
+      "mean_normalized_center_error_percent": 0.06602197616768674,
+      "std_normalized_center_error_percent": 0.038945140540892174,
+      "mean_matched_iou": 0.772855803974097
+    },
+    "per_image": [
+      {
+        "model": "HCF-YOLO11n",
+        "image": "result_4_97_png.rf.cee5573126d6a64b0cf87daf44934be2.jpg",
+        "ground_truth_count": 435,
+        "prediction_count_conf_0.15": 459,
+        "matched_count_iou_0.50": 417,
+        "mean_center_error_px": 0.7144942879676819,
+        "mean_normalized_center_error_percent": 0.0789412185549736,
+        "mean_matched_iou": 0.722456157207489
+      },
+      {
+        "model": "HCF-YOLO11n",
+        "image": "result_5_100_png.rf.19fd6d46df00df4e7fec68794ee3c881.jpg",
+        "ground_truth_count": 462,
+        "prediction_count_conf_0.15": 491,
+        "matched_count_iou_0.50": 443,
+        "mean_center_error_px": 0.5995033383369446,
+        "mean_normalized_center_error_percent": 0.06623639166355133,
+        "mean_matched_iou": 0.7787811756134033
+      },
+      {
+        "model": "HCF-YOLO11n",
+        "image": "result_5_75_png.rf.d39db1d1e19defbce63629e1486b719e.jpg",
+        "ground_truth_count": 384,
+        "prediction_count_conf_0.15": 410,
+        "matched_count_iou_0.50": 368,
+        "mean_center_error_px": 0.6903685331344604,
+        "mean_normalized_center_error_percent": 0.07627566903829575,
+        "mean_matched_iou": 0.73359614610672
+      },
+      {
+        "model": "HCF-YOLO11n",
+        "image": "result_5_85_png.rf.856d8961fb1079ecab164e4db1b3f1e2.jpg",
+        "ground_truth_count": 387,
+        "prediction_count_conf_0.15": 420,
+        "matched_count_iou_0.50": 360,
+        "mean_center_error_px": 0.747776448726654,
+        "mean_normalized_center_error_percent": 0.08261840790510178,
+        "mean_matched_iou": 0.7049309015274048
+      },
+      {
+        "model": "HCF-YOLO11n",
+        "image": "result_5_88_png.rf.dfa334a7323ab56a939e8f473801854a.jpg",
+        "ground_truth_count": 409,
+        "prediction_count_conf_0.15": 469,
+        "matched_count_iou_0.50": 403,
+        "mean_center_error_px": 0.5497372150421143,
+        "mean_normalized_center_error_percent": 0.06073794886469841,
+        "mean_matched_iou": 0.7899458408355713
+      },
+      {
+        "model": "HCF-YOLO11n",
+        "image": "result_5_98_png.rf.75ab490ab0fce5d99a598e06361f4d3e.jpg",
+        "ground_truth_count": 404,
+        "prediction_count_conf_0.15": 447,
+        "matched_count_iou_0.50": 395,
+        "mean_center_error_px": 0.5411117672920227,
+        "mean_normalized_center_error_percent": 0.05978497490286827,
+        "mean_matched_iou": 0.7995167970657349
+      },
+      {
+        "model": "HCF-YOLO11n",
+        "image": "result_5_99_png.rf.03796f8e2d8ee6ec0aaa7bc3877a2349.jpg",
+        "ground_truth_count": 404,
+        "prediction_count_conf_0.15": 447,
+        "matched_count_iou_0.50": 392,
+        "mean_center_error_px": 0.5544819235801697,
+        "mean_normalized_center_error_percent": 0.06126217916607857,
+        "mean_matched_iou": 0.796342134475708
+      },
+      {
+        "model": "HCF-YOLO11n",
+        "image": "result_6_78_png.rf.7b0f7993ddc2339f888760b9feeb578f.jpg",
+        "ground_truth_count": 361,
+        "prediction_count_conf_0.15": 388,
+        "matched_count_iou_0.50": 352,
+        "mean_center_error_px": 0.509467363357544,
+        "mean_normalized_center_error_percent": 0.05628872290253639,
+        "mean_matched_iou": 0.7986986041069031
+      },
+      {
+        "model": "HCF-YOLO11n",
+        "image": "result_7_60_png.rf.023314b3b262a4156d0c5221dcf8ad81.jpg",
+        "ground_truth_count": 338,
+        "prediction_count_conf_0.15": 381,
+        "matched_count_iou_0.50": 328,
+        "mean_center_error_px": 0.5276404023170471,
+        "mean_normalized_center_error_percent": 0.058296579867601395,
+        "mean_matched_iou": 0.8035097718238831
+      },
+      {
+        "model": "HCF-YOLO11n",
+        "image": "result_7_68_png.rf.e216a037d681ce88e79266e13d281b78.jpg",
+        "ground_truth_count": 329,
+        "prediction_count_conf_0.15": 343,
+        "matched_count_iou_0.50": 319,
+        "mean_center_error_px": 0.5177943110466003,
+        "mean_normalized_center_error_percent": 0.05720873549580574,
+        "mean_matched_iou": 0.8089561462402344
+      }
+    ]
+  }
+]

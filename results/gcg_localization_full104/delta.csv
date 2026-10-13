@@ -1,0 +1,2 @@
+comparison,test_images,delta_AP75_percentage_points,center_error_relative_reduction_percent,delta_matched_targets,matched_targets_relative_increase_percent,delta_mean_matched_iou,mean_matched_iou_relative_increase_percent
+GCG_on_minus_GCG_off,104,1.16,1.20,500,1.33,0.01129,1.46
