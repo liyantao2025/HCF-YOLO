@@ -1,7 +1,0 @@
-Model,seed,Precision,Recall,mAP50,mAP50-95,pretrained,init_mode,result_status
-YOLO11n,42,0.8571,0.8401,0.8844,0.4057,FALSE,random,completed_author_confirmed
-YOLO11n,3407,0.8615,0.8368,0.8829,0.4039,FALSE,random,completed_author_confirmed
-YOLO11n,2026,0.8546,0.8443,0.8861,0.4072,FALSE,random,completed_author_confirmed
-HCF-YOLO11n,42,0.9118,0.9130,0.9354,0.4431,FALSE,random,completed_author_confirmed
-HCF-YOLO11n,3407,0.9089,0.9162,0.9347,0.4418,FALSE,random,completed_author_confirmed
-HCF-YOLO11n,2026,0.9141,0.9107,0.9362,0.4440,FALSE,random,completed_author_confirmed

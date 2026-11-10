@@ -1,3 +1,0 @@
-﻿model,images,confidence,imgsz,MAE,RMSE,mean_error_bias
-YOLO11n,10,0.25,640,33.7,37.98552355832417,-33.7
-HCF-YOLO11n,10,0.25,640,25.4,28.316073174082593,25.4

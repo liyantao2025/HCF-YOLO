@@ -1,3 +1,0 @@
-﻿model,weights,test_images,ap75,center_error_conf,center_match_iou,matched_targets,mean_center_error_px,std_center_error_px,median_center_error_px,mean_normalized_center_error_percent,std_normalized_center_error_percent,mean_matched_iou
-P2+LMSFF+SA-WIoU (without GCG),D:\python_pro\yolov11\runs\ablation\diagnose_E_plus_SAWIoU_only\weights\best.pt,10,0.4955874391715313,0.15,0.5,3767,0.5939611007334857,0.35243297498921505,0.5286194086074829,0.06562405029708707,0.03893871033137963,0.7737313124175916
-P2+LMSFF+SA-WIoU+GCG,D:\python_pro\yolov11\runs\ablation\ablation_H_midlite_p2safe_gcg_sawiou_pretrained_samehyp\weights\best.pt,10,0.49914549522589147,0.15,0.5,3785,0.5937252346485302,0.3511075639384066,0.534085214138031,0.06559799056744099,0.0387922717744455,0.7740990623457744

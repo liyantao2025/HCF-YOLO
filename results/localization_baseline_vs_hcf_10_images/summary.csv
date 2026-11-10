@@ -1,3 +1,0 @@
-﻿model,weights,test_images,ap75,center_error_conf,center_match_iou,matched_targets,mean_center_error_px,std_center_error_px,median_center_error_px,mean_normalized_center_error_percent,std_normalized_center_error_percent,mean_matched_iou
-YOLO11n,D:\python_pro\yolov11\runs\ablation\yolo11n_baseline\weights\best.pt,10,0.49079402408676875,0.15,0.5,3478,0.6228373236498994,0.3782437209959331,0.5501823723316193,0.06881445241496749,0.04179042191837447,0.7720714181130339
-HCF-YOLO11n,D:\python_pro\yolov11\runs\ablation\diagnose_E_plus_GCG_only\weights\best.pt,10,0.5139263110608219,0.15,0.5,3777,0.5975627144791239,0.35249117498156063,0.5364624857902527,0.06602197616768674,0.038945140540892174,0.772855803974097

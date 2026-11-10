@@ -1,3 +1,0 @@
-﻿Model,seed,train_images,val_images,external_test_images,Precision,Recall,mAP50,mAP50-95,AP75,pretrained,count_MAE,count_RMSE,count_bias,count_conf
-YOLO11n,42,842,98,100,0.8331,0.8065,0.858,0.3814,0.3861,FALSE,41.88,54.301,-16.05,0.25
-HCF-YOLO11n,42,842,98,100,0.8936,0.8891,0.9139,0.421,0.4318,FALSE,28.74,38.522,-7.96,0.25

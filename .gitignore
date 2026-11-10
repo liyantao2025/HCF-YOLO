@@ -9,17 +9,24 @@ env/
 runs/
 outputs/
 logs/
-full_pipeline_console.log
 wandb/
 *.tmp
 *.bak
 ~$*
 
-# Third-party datasets are intentionally excluded from the public repository
-# until their redistribution permissions are confirmed. Split manifests,
-# configuration files, and preparation scripts remain versioned.
-dataset/images/
-dataset/labels/
-external_validation/dataset/images/
-external_validation/dataset/labels/
-deployment/raspberry_pi/package/dataset/images/
+# Dataset contents are not redistributed. Directory placeholders and the
+# dataset instructions remain versioned.
+dataset/images/train/*
+dataset/images/val/*
+dataset/images/test/*
+dataset/images/train_improved/
+dataset/labels/train/*
+dataset/labels/val/*
+dataset/labels/test/*
+dataset/labels/train_improved/
+!dataset/images/train/.gitkeep
+!dataset/images/val/.gitkeep
+!dataset/images/test/.gitkeep
+!dataset/labels/train/.gitkeep
+!dataset/labels/val/.gitkeep
+!dataset/labels/test/.gitkeep

@@ -1,5 +1,5 @@
 path: dataset
-train: images/train_improved
+train: images/train
 val: images/val
 test: images/test
 
